@@ -6,13 +6,6 @@ module.exports = {
       network_id: "*", // Match any network id
     }
   },
-    mocha: {
-    reporter: "eth-gas-reporter",
-    reporterOptions: {
-      gasUsageScenario: true,
-      excludeContracts: ["Migrations"]
-    }
-  },
   compilers: {
     solc: {
       settings: {
